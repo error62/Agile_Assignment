@@ -21,6 +21,9 @@ function categorize(email) {
   if (email.includes("error") || email.includes("bug"))
     return "Technical";
 
+  if (email.includes("membership") || email.includes("subscribe"))
+    return "Subscribtion";
+
   return "General";
 }
 
