@@ -35,6 +35,8 @@ function autoReply(category) {
       return "HR has received your message and will respond shortly.";
     case "Technical":
       return "Our technical team will look into this issue.";
+    case "Subscribtion":
+      return "Thank you for your interest in our subscription services.";
     default:
       return "Thank you for your email. We will get back to you soon.";
   }
